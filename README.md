@@ -73,4 +73,7 @@ Atlantic Region, Quebec, Yukon, Nunavut to understand regional return drivers.
 ## Detailed Dashboard
 Below is a detailed Dashboard With the necessary informations.
 
+![Screenshot (8)](https://github.com/user-attachments/assets/7e93b9fc-c03a-4299-99ff-9fb1317a8023)
+
+
 
