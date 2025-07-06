@@ -76,4 +76,20 @@ Below is a detailed Dashboard With the necessary informations.
 ![Screenshot (8)](https://github.com/user-attachments/assets/7e93b9fc-c03a-4299-99ff-9fb1317a8023)
 
 
+![Screenshot (14)](https://github.com/user-attachments/assets/d4b5e1ff-b05f-45a5-b303-521c147381c3)
+
+![Screenshot (15)](https://github.com/user-attachments/assets/79a1de83-1eb2-4de4-9919-8a26548bda5b)
+
+![Screenshot (16)](https://github.com/user-attachments/assets/fc59fd5d-1b7c-4422-a779-1db306c81f34)
+
+![Screenshot (17)](https://github.com/user-attachments/assets/1a490fd3-95cc-436e-a0fc-1fc27428bdc4)
+
+
+Linkedin: www.linkedin.com/in/paschal-ikenna-395a1a229
+
+Email: pikenna71@gmail.com
+
+Contact:+2347035349699
+
+
 
