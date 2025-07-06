@@ -7,24 +7,24 @@
 ### Power BI: Visualization tool for creating interactive dashboards.
 ### Microsoft Word: For generating stakeholder-friendly reports.
 
-# Key Features
-#Data Analysis: SQL queries to calculate return rates, sales, and profits by product category, customer segment, and region.
-#Interactive Dashboard: Power BI dashboard with KPIs (total orders, returns, sales, profit), charts, and maps.
-#Stakeholder Reporting: Professional Word report summarizing findings and recommendations.
-#Targeted Queries: Analysis of specific orders (e.g., order IDs 69, 134, 135, 230, 324) to identify returning customers.
-#Run the Project
-#Set Up Database:
-Start PostgreSQL and create a database: CREATE DATABASE study;
-#Run the schema script: psql -d study -f database/create_tables.sql
-#Load CSV data:\copy order_status FROM 'Order_Status.csv' DELIMITER '\t' CSV;
+## Key Features
+### Data Analysis: SQL queries to calculate return rates, sales, and profits by product category, customer segment, and region.
+### Interactive Dashboard: Power BI dashboard with KPIs (total orders, returns, sales, profit), charts, and maps.
+### Stakeholder Reporting: Professional Word report summarizing findings and recommendations.
+### Targeted Queries: Analysis of specific orders (e.g., order IDs 69, 134, 135, 230, 324) to identify returning customers.
+## Run the Project
+### Set Up Database:
+### Start PostgreSQL and create a database: CREATE DATABASE study;
+### Run the schema script: psql -d study -f database/create_tables.sql
+### Load CSV data:\copy order_status FROM 'Order_Status.csv' DELIMITER '\t' CSV;
 \copy order_details FROM 'KMS Sql Case Study.csv' DELIMITER '\t' CSV HEADER;
-#Run SQL Queries:
-#Execute analysis queries: psql -d case2 -f database/case_study_queries.sql
-#Run specific order ID query: psql -d case2 -f database/customer_returned_orders.sql
-#Launch Power BI Dashboard:
-Open dashboard/case_study_2_dashboard.pbit in Power BI Desktop.
-Connect to the PostgreSQL database (case2) and load order_details and order_status tables.
-Save as a .pbix file for further customization.
+### Run SQL Queries:
+### Execute analysis queries: psql -d case2 -f database/case_study_queries.sql
+### Run specific order ID query: psql -d case2 -f database/customer_returned_orders.sql
+## Launch Power BI Dashboard:
+### Open dashboard/case_study_2_dashboard.pbit in Power BI Desktop.
+### Connect to the PostgreSQL database (case2) and load order_details and order_status tables.
+### Save as a .pbix file for further customization.
 
 ![Screenshot (8)](https://github.com/user-attachments/assets/7e93b9fc-c03a-4299-99ff-9fb1317a8023)
 
