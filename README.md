@@ -1,4 +1,4 @@
-#Project Description
+# Project Description
 
 Case 2 is a data analysis project focused on analyzing order and return data to provide insights into sales, profitability, and return patterns. Using datasets containing order details and return statuses, the project leverages PostgreSQL for data processing, Power BI for visualization, and a Word report for stakeholder communication. The purpose is to identify high-return product categories, customer segments, and regions to inform business decisions and reduce return rates.
 
