@@ -1,77 +1,30 @@
-# KMS-CASE-STUDY-2
+#Project Description
 
-## Executive Summary
-This report analyzes order and return data to provide insights into sales performance, return
-rates, and customer behavior for [KMS]. Using data from order details and
-return statuses, we identified key trends in product categories, customer segments, and
-geographic regions.
+Case 2 is a data analysis project focused on analyzing order and return data to provide insights into sales, profitability, and return patterns. Using datasets containing order details and return statuses, the project leverages PostgreSQL for data processing, Power BI for visualization, and a Word report for stakeholder communication. The purpose is to identify high-return product categories, customer segments, and regions to inform business decisions and reduce return rates.
 
-## Introduction
-This report presents an analysis of order and return data to support strategic
-decision-making. The objectives are to:
-1. Quantify the impact of returned orders on sales and profit.
-2. Identify patterns in returns by product category, customer segment, and geographic
-region.
-3. Provide recommendations to improve operational efficiency and customer
-satisfaction.
-The analysis is based on two datasets:
-- Order Details: Contains detailed order information, including sales, profit, product
-categories, customer segments, and shipping details.
-- Order Status: Lists orders with a "Returned" status.
+#Technology Stack
+#PostgreSQL: Database for storing and querying order and return data.
+#Power BI: Visualization tool for creating interactive dashboards.
+#Microsoft Word: For generating stakeholder-friendly reports.
 
-## Data Overview
-The datasets include:
-- Order_Status.csv: Records of returned orders with order_id and status (all marked
-as "Returned").
-- KMS Sql Case Study.csv: Comprehensive order data with columns such as
-order_id, customer_id, order_date, sales, profit, product_category,
-customer_segment, province, and ship_mode.
-The data was analyzed using SQL Queries and using Power BI to generate visualizations,
-focusing on return rates, sales, and profitability.
-
-## Key Findings
-### 3.1 Overall Metrics
-- Highest Sales Category - [Technology]
-- Most Popular Ship mode - [Regular Air]
-- Customer with most order from 2009/ 2012 - [Adam Hart]
-- Most profitable Customer - [Dean Percer]
-- Customer with highest sales - [Clytie Kelty]
-- Region with highest sales -[West, Ontario, Prairie, Atlantic Region, Quebec, Yukon,
-Nunavut]
-- List of Valuable Customer - [Dean Percer, Raymond Book, Darren Budd, Karen
-Carlisile]
-- Customer with lowest sales count - [Cray Mitchum, Barry Franz, Nicole Fjeld,
-Cathay, Prescott, Cyma Kinney Scot Wooten]
-- Ship Mode with least popularity - [Delivery Truck]
-
-### 3.2 Returns by Product Category
-- The highest return rates were observed in Technology
-
-### 3.3 Returns by Customer Segment
-- Dean Percer had the highest number of returns with regards to number of sales.
-
-### 3.4 Geographic Trends
-- Provinces such as West, Ontario, Prairie, Atlantic Region, Quebec, Yukon, Nunavut
-had the highest return rates.
-
-### 3.5 Returns by Shipping Mode
-- Regular Air shipping mode was the most preferred shipping mode, while Delivery
-Truck was least preferred.
-
-## Recommendations
-Based on the analysis, we recommend the following actions:
-- Investigate High-Return Product Categories: Conduct quality checks on
-Technology to identify reasons for high returns.
-- Target Customer Segments: Offer targeted promotions or support to Cray Mitchum,
-Barry Franz, Nicole Fjeld, Cathay, Prescott, Cyma Kinney Scot Wooten to improve
-satisfaction and reduce returns.
-- Optimize Shipping Processes: Review Delivery Truck logistics to address potential
-issues causing returns.
-- Regional Focus: Implement customer feedback surveys inWest, Ontario, Prairie,
-Atlantic Region, Quebec, Yukon, Nunavut to understand regional return drivers.
-
-## Detailed Dashboard
-Below is a detailed Dashboard With the necessary informations.
+#Key Features
+#Data Analysis: SQL queries to calculate return rates, sales, and profits by product category, customer segment, and region.
+#Interactive Dashboard: Power BI dashboard with KPIs (total orders, returns, sales, profit), charts, and maps.
+#Stakeholder Reporting: Professional Word report summarizing findings and recommendations.
+#Targeted Queries: Analysis of specific orders (e.g., order IDs 69, 134, 135, 230, 324) to identify returning customers.
+#Run the Project
+#Set Up Database:
+Start PostgreSQL and create a database: CREATE DATABASE study;
+#Run the schema script: psql -d study -f database/create_tables.sql
+#Load CSV data:\copy order_status FROM 'Order_Status.csv' DELIMITER '\t' CSV;
+\copy order_details FROM 'KMS Sql Case Study.csv' DELIMITER '\t' CSV HEADER;
+#Run SQL Queries:
+#Execute analysis queries: psql -d case2 -f database/case_study_queries.sql
+#Run specific order ID query: psql -d case2 -f database/customer_returned_orders.sql
+#Launch Power BI Dashboard:
+Open dashboard/case_study_2_dashboard.pbit in Power BI Desktop.
+Connect to the PostgreSQL database (case2) and load order_details and order_status tables.
+Save as a .pbix file for further customization.
 
 ![Screenshot (8)](https://github.com/user-attachments/assets/7e93b9fc-c03a-4299-99ff-9fb1317a8023)
 
