@@ -1,14 +1,13 @@
 # Project Description
 
-Case 2 is a data analysis project focused on analyzing order and return data to provide insights into sales, profitability, and return patterns. Using datasets containing order details and return statuses, the project leverages PostgreSQL for data processing, Power BI for visualization, and a Word report for stakeholder communication. The purpose is to identify high-return product categories, customer segments, and regions to inform business decisions and reduce return rates.
+## Case 2 is a data analysis project focused on analyzing order and return data to provide insights into sales, profitability, and return patterns. Using datasets containing order details and return statuses, the project leverages PostgreSQL for data processing, Power BI for visualization, and a Word report for stakeholder communication. The purpose is to identify high-return product categories, customer segments, and regions to inform business decisions and reduce return rates.
 
-#Technology Stack
+## Technology Stack
+### PostgreSQL: Database for storing and querying order and return data.
+### Power BI: Visualization tool for creating interactive dashboards.
+### Microsoft Word: For generating stakeholder-friendly reports.
 
-PostgreSQL: Database for storing and querying order and return data.
-#Power BI: Visualization tool for creating interactive dashboards.
-#Microsoft Word: For generating stakeholder-friendly reports.
-
-#Key Features
+# Key Features
 #Data Analysis: SQL queries to calculate return rates, sales, and profits by product category, customer segment, and region.
 #Interactive Dashboard: Power BI dashboard with KPIs (total orders, returns, sales, profit), charts, and maps.
 #Stakeholder Reporting: Professional Word report summarizing findings and recommendations.
